@@ -92,7 +92,7 @@ p:nth-of-type(3) {
 }
 
 .tiktok-button {
-    display: block;
+    display: none;
     margin: 20px auto;
     padding: 7px 15px;
     font-size: 18px;
@@ -107,5 +107,29 @@ p:nth-of-type(3) {
 
 .tiktok-button:hover {
     background-color: #e60048; 
+}
+
+@media (max-width: 500px) {
+    .message-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .message-title {
+        font-size: 24px;
+    }
+
+    .message-text {
+        font-size: 14px;
+    }
+
+    .gif {
+        width: 80px; 
+    }
+
+    .tiktok-button {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
 }
 
